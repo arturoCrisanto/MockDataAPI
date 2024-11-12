@@ -51,7 +51,7 @@ node_modules
 - GET `/items`: Fetch and display all items in mockData.
 - GET `/items/:id`: Retrieve a specific item by `id` from mockData. If the item doesn’t exist, return a `404` status and an error message.
 - POST `/items`: Add a new item to `mockData` (send the item’s details in the request body).
-- PUT `/items/`:id: Update an existing item in `mockData` based on the given `id`.
+- PUT `/items/:id`: Update an existing item in `mockData` based on the given `id`.
 - DELETE `/items/:id`: Remove an item from `mockData` by `id`.
 
 6. Run the Server:
