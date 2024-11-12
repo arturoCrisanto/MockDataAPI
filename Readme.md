@@ -16,6 +16,12 @@ Setup Project Folder:
 npm init -y
 ```
 
+- if your encountering error with `npm`:
+
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+
 2. Install Dependencies:
 
 ```bash
