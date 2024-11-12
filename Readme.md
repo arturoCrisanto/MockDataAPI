@@ -30,7 +30,7 @@ npm i express nodemon dotenv
 
 3. Configure Scripts in package.json:
 
-Update the package.json file to use nodemon for starting the server in development mode:
+Update the `package.json` file to use `nodemon` for starting the server in development mode:
 
 ```bash
  "dev": "nodemon server.js"
@@ -45,10 +45,11 @@ PORT=3000
 ```
 
 - Add .gitignore:
-  Create a .gitignore file in your project folder and add the following lines to ensure that .env and node_modules are not tracked by Git:
+
+  Create a `.gitignore` file in your project folder and add the following lines to ensure that `.env` and `node_modules` are not tracked by `Git`:
 
 ```Bash
-node_modules
+node_modules/
 .env
 ```
 
@@ -62,7 +63,7 @@ node_modules
 
 6. Run the Server:
 
-In your main server file (e.g., server.js), load environment variables from .env using dotenv:
+In your main server file (e.g., server.js), load environment variables from `.env` using dotenv:
 
 ```javascript
 const express = require("express");
