@@ -83,6 +83,12 @@ app.listen(process.env.PORT, () => {
 npm run dev
 ```
 
+- local enviroment
+
+```bash
+http://localhost:3000
+```
+
 7. Example Mock Data:
 
 Set up mockData as an array of objects:
