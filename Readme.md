@@ -53,7 +53,7 @@ node_modules/
 .env
 ```
 
-5. Implement the API Endpoints:
+# 5. Implement the API Endpoints:
 
 - GET `/items`: Fetch and display all items in mockData.
 - GET `/items/:id`: Retrieve a specific item by `id` from mockData. If the item doesn’t exist, return a `404` status and an error message.
